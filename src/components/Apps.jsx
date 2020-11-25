@@ -1,8 +1,15 @@
+import styled from "styled-components";
+
+const ContentContainer = styled.div`
+  margin: 0px 15%;
+  color: white;
+`;
+
 const Apps = () => {
   return (
-    <div>
+    <ContentContainer>
       <h1>APPS PAGE</h1>
-    </div>
+    </ContentContainer>
   );
 };
 

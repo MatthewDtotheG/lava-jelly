@@ -1,8 +1,15 @@
+import styled from "styled-components";
+
+const ContentContainer = styled.div`
+  margin: 0px 15%;
+  color: white;
+`;
+
 const Parents = () => {
   return (
-    <div>
+    <ContentContainer>
       <h1>PARENTS PAGE</h1>
-    </div>
+    </ContentContainer>
   );
 };
 
